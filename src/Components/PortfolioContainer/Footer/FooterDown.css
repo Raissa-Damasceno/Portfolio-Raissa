@@ -1,0 +1,33 @@
+footer {
+    background: black;
+    height: auto;   
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top: 30px;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.text-footer{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;  
+}
+
+.icons {
+    display: flex;
+    width: 10%;
+    justify-content: space-around;
+    margin-bottom: 10px;
+} 
+
+.footer-email{
+    color: white;
+    font-size: 20px;
+}
