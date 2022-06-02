@@ -5,7 +5,6 @@ import FooterDown from './Components/PortfolioContainer/Footer/FooterDown';
 function App() {
   return (
     <div className="App">
-      {/* <Home /> */}
       <PortfolioContainer />
       <FooterDown />
     </div>
