@@ -1,18 +1,8 @@
-import { useEffect } from "react";
 import ScreenHeading from "../../utilities/ScrennHeading/ScreenHeading";
-import ScrollService from "../../utilities/ScrollService";
-import Animations from "../../utilities/Animations";
 
-import './AboutMe.css'
+import "./AboutMe.css";
 
 function AboutMe(props) {
-  let fadeInScreenHandler = (screen) => {
-    if (screen.fadeScreen !== props.id) return;
-    Animations.animations.fadeInScreen(props.id);
-  };
-  const fadeInSubscription =
-    ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
-
   const SCREEN_CONSTSANTS = {
     description:
       "I'm a full-stack web developer, with a background in finance ! My passion for solving problems led me to open my first company at the age of 16, where I was able to have contact with all areas of a company and learn a lot about business. After a few years managing my company, I had the opportunity to work at a product import and export company where my passion for numbers made me specialize in the financial area. I completed my MBA in Corporate Finance at the best university in Latin America, FGV. I decided to do my first course in full-stack web development. In this course I was able to use my knowledge, my passion for problem solving and numbers to create x projects.",
@@ -49,16 +39,16 @@ function AboutMe(props) {
               {SCREEN_CONSTSANTS.description}
             </span>
             <div className="about-me-highlights">
-            <div className="highligth-heading">
-              <span>{SCREEN_CONSTSANTS.highlights.heading}</span>
+              <div className="highligth-heading">
+                <span>{SCREEN_CONSTSANTS.highlights.heading}</span>
+              </div>
+              {renderHighlight()}
             </div>
-            {renderHighlight()}
-          </div>
-          <div className="about-me-options">
-            <button className="btn primary-btn">Hire Me</button>
-            <a href="CV-RaissaDamasceno.pdf" download="RaissaDamascenoCV.pdf">
-              <button className="btn highlighted-btn">Get Resume</button>
-            </a>
+            <div className="about-me-options">
+              <button className="btn primary-btn">Hire Me</button>
+              <a href="CV-RaissaDamasceno.pdf" download="RaissaDamascenoCV.pdf">
+                <button className="btn highlighted-btn">Get Resume</button>
+              </a>
             </div>
           </div>
         </div>
