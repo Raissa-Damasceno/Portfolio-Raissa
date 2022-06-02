@@ -1,9 +1,7 @@
 footer {
-    background: black;
-    height: auto;   
-    width: 100vw;
-    font-family: "Open Sans";
-    padding-top: 30px;
+    text-align: center;
+    background-color: black;
+    padding: 10px;
 }
 
 .footer-content{
@@ -18,6 +16,7 @@ footer {
     font-size: 20px;
     color: white;
     font-weight: bold;  
+    font-family: "Poppins SemiBold";
 }
 
 .icons {
@@ -25,9 +24,12 @@ footer {
     width: 10%;
     justify-content: space-around;
     margin-bottom: 10px;
+    font-family: "Poppins SemiBold";
 } 
 
 .footer-email{
     color: white;
     font-size: 20px;
+    font-family: "Poppins SemiBold";
+    
 }

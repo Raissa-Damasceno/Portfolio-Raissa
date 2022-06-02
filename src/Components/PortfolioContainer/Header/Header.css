@@ -25,6 +25,10 @@
     align-items: center;
 }
 
+.header-options span{
+    padding: 10px;
+}
+
 .header-option{
     font-size: 16px;
     cursor: pointer;

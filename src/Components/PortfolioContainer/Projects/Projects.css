@@ -3,10 +3,39 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 50px 0 0 0;
 }
 
 .projects-parent {
     max-width: 1000px;
-    width: 70%;
+    width: 80%;
+    align-items: center;
+}
+
+.projects--card{
+    display: inline-block;
+    padding: 10px;
+}
+
+.projects--list{
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.projects--name{
+    font-weight: bold;
+}
+
+.projects--img:hover{
+    box-shadow: 1px 1px 1px 1px #fff;
+    padding: 1px;
+    transition: all ease 0.6s;
+    opacity: 0.8;
+}
+
+.projects--type{
+    font-size: 12px;
 }
