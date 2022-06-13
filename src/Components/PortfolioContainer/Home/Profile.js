@@ -14,7 +14,7 @@ function Profile() {
           </div>
           <div className="profile-details-role">
             <div>
-              I'm a Full Stack web developer with a background in finance!
+              Full Stack web developer with a background in finance!
             </div>
           </div>
           <div className="profile-options">
