@@ -19,14 +19,6 @@ function AboutMe(props) {
       heading: "Programming Skills",
     },
   };
-  const renderHighlight = () => {
-    return SCREEN_CONSTSANTS.highlights.bullets.map((value, i) => (
-      <div className="highlight" key={i}>
-        <div className="highlight-blob"></div>
-        <span>{value}</span>
-      </div>
-    ));
-  };
 
   return (
     <div className="about-me-container screen-container" id={props.id || ""}>
