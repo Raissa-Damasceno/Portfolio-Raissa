@@ -84,7 +84,7 @@ function Resume(props) {
     <div className="resume-screen-container" key="education">
       <ResumeHeading
         heading={"Ironhack - Lisbon"}
-        subHeading={"FULL STACK DEVELOPER"}
+        subHeading={"Full Stack Developer"}
         fromDate={"sep.2022"}
         toDate={"dez.2022"}
         description={""}
@@ -142,7 +142,6 @@ function Resume(props) {
       <br />
     </div>,
 
-    /* PROGRAMMING SKILLS */
     <div
       className="resume-screen-container programming-skills-container"
       key="programming-skills"
@@ -155,7 +154,6 @@ function Resume(props) {
       ))}
     </div>,
 
-    /* PROJECTS */
     <div className="resume-screen-container" key="projects">
       {projectsDetails.map((projectsDetails, index) => (
         <ResumeHeading
@@ -169,7 +167,6 @@ function Resume(props) {
       ))}
     </div>,
 
-    /* Interests */
     <div className="resume-screen-container" key="interests">
       <ResumeHeading
         heading="Teaching"
