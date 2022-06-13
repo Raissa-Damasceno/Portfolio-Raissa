@@ -4,7 +4,6 @@ function FooterDown() {
   return (
     <footer>
       <div className="footer-content">
-        <div className="text-footer">Contact Me</div>
         <div className="footer-email">
           <p>raissa.dot@gmail.com</p>
         </div>
@@ -17,6 +16,9 @@ function FooterDown() {
           </a>
           <a href="https://www.linkedin.com/in/raissa-damasceno/">
             <i className="fa fa-linkedin"></i>
+          </a>
+          <a href="CV-RaissaDamasceno.pdf" download="RaissaDamascenoCV.pdf">
+            <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
           </a>
         </div>
       </div>

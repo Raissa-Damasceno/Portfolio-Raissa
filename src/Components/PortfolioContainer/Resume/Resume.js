@@ -41,17 +41,19 @@ function Resume(props) {
 
   const programmingSkillsDetails = [
     { skill: "Javascript" },
-    { skill: "Javascript" },
-    { skill: "Javascript" },
-    { skill: "Javascript" },
-    { skill: "Javascript" },
-    { skill: "Javascript" },
-    { skill: "Javascript" },
-    { skill: "Javascript" },
-    { skill: "Javascript" },
-    { skill: "Javascript" },
-    { skill: "Javascript" },
-    { skill: "Javascript" },
+    { skill: "Node.js" },
+    { skill: "React" },
+    { skill: "Express.js" },
+    { skill: "Mongoose" },
+    { skill: "HTML" },
+    { skill: "CSS" },
+    { skill: "AWS" },
+    { skill: "MongoDB" },
+    { skill: "APIs:" },
+    { skill: "Bootstrap" },
+    { skill: "Git" },
+    { skill: "SourceTree" },
+    { skill: "Github" },
   ];
 
   const projectsDetails = [
@@ -69,6 +71,13 @@ function Resume(props) {
         "Online ecommerce website for showcasing and selling products onlne with payment system integration",
       subHeading: "Technologies Used: HTML, CSS, PHP, Bootstrap.",
     },
+    {
+      title: "Ecommerce Website ",
+      duration: { fromDate: "2020", toDate: "2021" },
+      description:
+        "Online ecommerce website for showcasing and selling products onlne with payment system integration",
+      subHeading: "Technologies Used: HTML, CSS, PHP, Bootstrap.",
+    },
   ];
 
   const resumeDetails = [
@@ -78,6 +87,7 @@ function Resume(props) {
         subHeading={"FULL STACK DEVELOPER"}
         fromDate={"sep.2022"}
         toDate={"dez.2022"}
+        description={""}
       />
 
       <ResumeHeading
@@ -85,58 +95,52 @@ function Resume(props) {
         subHeading={"MBA in Corporate Finance"}
         fromDate={"2011"}
         toDate={"2015"}
+        description={""}
       />
       <ResumeHeading
         heading={"University FMU, São Paulo"}
         subHeading={"Administration of Business"}
         fromDate={"2006"}
         toDate={"2011"}
+        description={""}
       />
     </div>,
 
-    /* WORK EXPERIENCE */
     <div className="resume-screen-container" key="work-experience">
-    <ResumeHeading
-      heading={"Full Stack Developer"}
-      subHeading={"Youvisa, Remote"}
-      fromDate={"jan/2022"}
-      toDate={"present"}
-    />
-    <div className="experience-description">
-      <span className="resume-description-text">
-        - Tools: Node.js, React, Google API spreadsheet, Clickup API and AWS:
-      </span>
+      <ResumeHeading
+        heading={"Full Stack Developer"}
+        subHeading={"Youvisa, Remote"}
+        fromDate={"jan/2022"}
+        toDate={"present"}
+      />
+      <div className="experience-description">
+        <span className="resume-description-text">
+          Clickup BI: fetch data from the Clickup API, analyze and convert it
+          into data structures and store it in Excel spreadsheets. Mail
+          Processor: redirect the download link of emails from a certain domain
+          and attach in Clickup Manager tasks through the id.
+        </span>
+        <br /> 
+        <span className="resume-description-text">
+        </span>
+      </div>
       <br />
-      <span className="resume-description-text">
-        - Tools: Node.js, React, Google API spreadsheet, Clickup API and AWS:
-      </span>
+      <ResumeHeading
+        heading={"Finance Manager"}
+        subHeading={"CP Aduaneira, São Paulo"}
+        fromDate={"nov/2018"}
+        toDate={"jul/2021"}
+      />
+      <div className="experience-description">
+        <span className="resume-description-text">
+          - Purchase and implementation of finance software, 23% operation cost
+          reduction through in-depth spending analysis and process creation, 83%
+          of debt collected through negotiation with customers and creation and
+          implementation of new processes.
+        </span>
+      </div>
       <br />
-      <span className="resume-description-text">
-        - Tools: Node.js, React, Google API spreadsheet, Clickup API and AWS:
-      </span>
-      <br />
-      <span className="resume-description-text">
-        - Tools: Node.js, React, Google API spreadsheet, Clickup API and AWS:
-      </span>
-    </div>
-    <br />
-    <ResumeHeading
-      heading={"Finance Manager"}
-      subHeading={"CP Aduaneira, São Paulo"}
-      fromDate={"jan/2022"}
-      toDate={"present"}
-    />
-    <div className="experience-description">
-      <span className="resume-description-text">
-        - Tools: Node.js, React, Google API spreadsheet, Clickup API and AWS:
-      </span>
-      <br />
-      <span className="resume-description-text">
-        - Tools: Node.js, React, Google API spreadsheet, Clickup API and AWS:
-      </span>
-    </div>
-    <br />
-  </div>,
+    </div>,
 
     /* PROGRAMMING SKILLS */
     <div
@@ -224,8 +228,7 @@ function Resume(props) {
   };
 
   return (
-     <div
-       className="resume-container screen-container" id={props.id || ""}>
+    <div className="resume-container screen-container" id={props.id || ""}>
       <div className="resume-content">
         <ScreenHeading title={"Resume"} subHeading={"My formal Bio Details"} />
         <div className="resume-card">

@@ -51,7 +51,7 @@ const Header = () => {
             <FontAwesomeIcon className="header-hamburger-bars" icon={faBars} />
           </div>
           <div className="header-logo">
-            <span>*RA~DAMASCENO</span>
+            <span>RAISSA DAMASCENO</span>
           </div>
           <div
             className={
