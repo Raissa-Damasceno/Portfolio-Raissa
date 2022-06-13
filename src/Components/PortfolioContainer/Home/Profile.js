@@ -20,16 +20,16 @@ function Profile() {
           <div className="profile-options">
             <div className="colz">
               <div className="colz-icon">
-                <a href="https://api.whatsapp.com/send?phone=351926973707">
+                <a href="https://api.whatsapp.com/send?phone=351926973707" target="_blank" rel="noreferrer">
                   <i className="fa fa-whatsapp"></i>
                 </a>
-                <a href="https://github.com/Raissa-Damasceno">
+                <a href="https://github.com/Raissa-Damasceno" target="_blank" rel="noreferrer">
                   <i className="fa fa-github"></i>
                 </a>
-                <a href="https://www.linkedin.com/in/raissa-damasceno/">
+                <a href="https://www.linkedin.com/in/raissa-damasceno/" target="_blank" rel="noreferrer">
                   <i className="fa fa-linkedin"></i>
                 </a>
-                <a href="RaissaDamascenoCV.pdf" download="RaissaDamascenoCV.pdf">
+                <a href="RaissaDamascenoCV.pdf" download="RaissaDamascenoCV.pdf" target="_blank" rel="noreferrer">
                 <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
                 </a>
               </div>
