@@ -115,13 +115,13 @@ function Resume(props) {
       />
       <div className="experience-description">
         <span className="resume-description-text">
-          Clickup BI: fetch data from the Clickup API, analyze and convert it
-          into data structures and store it in Excel spreadsheets. Mail
-          Processor: redirect the download link of emails from a certain domain
-          and attach in Clickup Manager tasks through the id.
+          - Clickup BI: fetch data from the Clickup API, analyze and convert it
+          into data structures and store it in Excel spreadsheets.
         </span>
-        <br /> 
+        <br />
         <span className="resume-description-text">
+          - Mail Processor: redirect the download link of emails from a certain
+          domain and attach in Clickup Manager tasks through the id.
         </span>
       </div>
       <br />
