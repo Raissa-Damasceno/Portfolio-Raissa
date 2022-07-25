@@ -22,9 +22,9 @@ const Header = () => {
 
   const getHeaderOptionsClasses = (index) => {
     let classes = "header-option";
-    if (index < TOTAL_SCREENS.length - 1) classes += "header-option-seperator";
+    if (index < TOTAL_SCREENS.length - 1) classes += " header-option-seperator";
 
-    if (selectedScreen === index) classes += "selected-header-option";
+    if (selectedScreen === index) classes += " selected-header-option";
 
     return classes;
   };

@@ -79,15 +79,22 @@ function Resume(props) {
       <ResumeHeading
         heading={"University FGV, São Paulo"}
         subHeading={"MBA in Corporate Finance"}
-        fromDate={"2011"}
-        toDate={"2015"}
+        fromDate={"2020"}
+        toDate={"2021"}
+        description={""}
+      />
+      <ResumeHeading
+        heading={"São judas Tadeu"}
+        subHeading={"Law"}
+        fromDate={"2015"}
+        toDate={"2017"}
         description={""}
       />
       <ResumeHeading
         heading={"University FMU, São Paulo"}
         subHeading={"Administration of Business"}
-        fromDate={"2006"}
-        toDate={"2011"}
+        fromDate={"2011"}
+        toDate={"2014"}
         description={""}
       />
     </div>,
@@ -154,18 +161,9 @@ function Resume(props) {
     </div>,
 
     <div className="resume-screen-container" key="interests">
-      <ResumeHeading
-        heading="Travel"
-        description=""
-      />
-      <ResumeHeading
-        heading="Astronomy and Astrophysics"
-        description=""
-      />
-      <ResumeHeading
-        heading="Running"
-        description=""
-      />
+      <ResumeHeading heading="Travel" description="" />
+      <ResumeHeading heading="Astronomy and Astrophysics" description="" />
+      <ResumeHeading heading="Running" description="" />
     </div>,
   ];
 

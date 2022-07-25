@@ -7,5 +7,14 @@
         "description": "", 
         "link": "https://github.com/Raissa-Damasceno/Netflix-Clone",
         "image": "https://raw.githubusercontent.com/superneutrino8/netlfix-clone/master/src/NetflixClone.jpg"
+      }, 
+      {
+        "id": 2,
+        "name": "10 mini Projects",
+        "type": "JavaScript",
+        "language": "Javascript, Css and HTML", 
+        "description": "", 
+        "link": "https://github.com/Raissa-Damasceno/10-mini-projects",
+        "image": "https://img.freepik.com/premium-vector/countdown-timer-template-website-application_6735-822.jpg?w=996"
       }
     ]
